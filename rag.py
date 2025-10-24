@@ -1,7 +1,6 @@
 # Install necessary libraries
 # pip install requests beautifulsoup4 langchain-community langchain-text-splitters langchain-chroma langchain-ollama
 
-# Import required libraries
 import bs4
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -9,7 +8,7 @@ from langchain_community.embeddings import OllamaEmbeddings
 from langchain_chroma import Chroma
 from langchain_ollama.llms import OllamaLLM
 
-# Define a SoupStrainer to parse only specific parts of the webpage
+# Define a SoupStrainer to parse only specific parts of the webpage (I have a full Beautifulsoup tutorial on Pythonology)
 bs4_strainer = bs4.SoupStrainer(class_=("content-area"))
 
 # Initialize the WebBaseLoader with the target URL and the SoupStrainer
