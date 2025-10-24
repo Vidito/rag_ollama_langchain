@@ -1,6 +1,7 @@
 # Retrieval-Augmented Generation (RAG) Web Scraper
 
-<iframe width="1498" height="563" src="https://www.youtube.com/embed/0zgYu_9WF7A" title="Build a RAG web scraper using Langchain, Ollama, ChromaDB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://i.ytimg.com/an_webp/0zgYu_9WF7A/mqdefault_6s.webp?du=3000&sqp=CICU78cG&rs=AOn4CLAjk9w3fYwkZ4ni29KzAiv3nLlo2g)](https://www.youtube.com/watch?v=0zgYu_9WF7A)
+
 
 This is a web application that uses a Retrieval-Augmented Generation (RAG) model to answer questions based on the content of a scraped webpage. It's built with Streamlit, LangChain, Ollama, and Chroma.
 
